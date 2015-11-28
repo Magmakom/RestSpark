@@ -1,0 +1,248 @@
+$inputLogin_Padding: 20px 0px 0px 4px;
+$inputLogin_Border: 1px solid #dcdcdc;
+
+.fill, html, body {
+  min-height: 100%;
+  height: 100%;
+}
+
+.outer-container {
+  margin-right: 0;
+  margin-left: 0;
+  box-sizing: border-box;
+  padding-top: 50px;
+}
+
+div {
+  &#main_container, &#map, &#info_container {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.leaflet-map-pane {
+z-index: 2 !important;
+}
+
+.leaflet-google-layer {
+z-index: 1 !important;
+}
+
+.navbar {
+  border: 1px solid transparent;
+  margin-bottom: 0;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-brand {
+  padding: 10px;
+}
+
+.navbar-right {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.col-md-10 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.col-md-2 {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+#input-search {
+  width: 100%;
+  margin-right: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.glyphicon-search {
+  top: 0px;
+  padding-top: 7px;
+  padding-bottom: 3px;
+}
+
+.list-group {
+  width: 100%;
+  margin-right: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 5px;
+}
+
+.list-group-item {
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+
+.badge {
+  background-color: #669900;
+}
+
+.rightItem {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.restName {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px 0px 5px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+#input-login {
+  padding: $inputLogin_Padding;
+  width: 100%;
+  margin-right: 0px;
+  border: $inputLogin_Border;
+  width: 100%;
+}
+
+#input-password {
+  padding: $inputLogin_Padding;
+  width: 100%;
+  margin-right: 0px;
+  margin-top: 10px;
+  border: $inputLogin_Border;
+  width: 100%;
+}
+
+#loginConfirm {
+  background: #00a8fd;
+  border-radius: 3px;
+  color: #fff;
+  float: right;
+  margin-top: 20px;
+  padding: 12px 20px;
+}
+
+.info {
+  background: #e5e5e5;
+  border-radius: 50%;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 10px 0 0;
+  margin-top: 30px;
+  text-align: center;
+  width: 20px;
+}
+
+/* Style for overlay and box */
+
+.overlay {
+  background: transparent url(/images/overlay.png) repeat top left;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+
+.box {
+  position: fixed;
+  top: -400px;
+  left: 40%;
+  right: 40%;
+  background-color: #fff;
+  color: #7F7F7F;
+  padding: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  -moz-box-shadow: 0 1px 5px #333;
+  -webkit-box-shadow: 0 1px 5px #333;
+  z-index: 101;
+  h1 {
+    text-align: center;
+    border-bottom: 1px solid #7F7F7F;
+    margin: -20px -20px 20px -20px;
+    padding: 10px;
+    background-color: #eee;
+    color: #000000;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -khtml-border-top-left-radius: 20px;
+    -khtml-border-top-right-radius: 20px;
+  }
+}
+
+a.boxclose {
+  font-size: 22px;
+  line-height: .5;
+  position: absolute;
+  top: 8px;
+  right: 11px;
+  color: #aaa;
+  text-shadow: 0 -1px 1px rbga(0, 0, 0, 0.6);
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('/images/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l                  (normal)
+        .jssora12r                  (normal)
+        .jssora12l:hover            (normal mouseover)
+        .jssora12r:hover            (normal mouseover)
+        .jssora12l.jssora12ldn      (mousedown)
+        .jssora12r.jssora12rdn      (mousedown)
+        */
+        .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 30px;
+            height: 46px;
+            cursor: pointer;
+            background: url('/images/a12.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
